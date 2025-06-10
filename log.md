@@ -1,17 +1,28 @@
-[Day 1]
+# Development Log
 
-Report
-- https://chatgpt.com/c/6837e954-31c4-800d-b6b5-8477ba9bcfa8
-- Generated a project overview to help me have a clear mental picture of the project
+## Day 1
 
-  Next Steps
-- Find existing implementations of video activity detection
+### Report
+- [Initial project discussion](https://chatgpt.com/c/6837e954-31c4-800d-b6b5-8477ba9bcfa8)
+- Generated project overview to establish clear mental model of the project scope
 
-[Day 2]
+### Next Steps
+- Research existing implementations of video activity detection
 
-- Found multiple implementations.
-- Started checking [one]('https://github.com/noorkhokhar99/human-activity-recognition/tree/main?tab=readme-ov-file')
-- Was not able to run it.
-- Issue: the opencv I have on my kaggle does not come compiled with GPU support.
-- Solution: 1. Run the code on collab
-            2. Build opencv locally with GPU colab
+## Day 2
+
+### Progress
+- Identified multiple existing implementations
+- Began evaluating [human-activity-recognition](https://github.com/noorkhokhar99/human-activity-recognition/tree/main?tab=readme-ov-file) implementation
+
+### Issues Encountered
+- OpenCV installation on Kaggle lacks GPU support
+  - Error when trying to run GPU-accelerated portions
+
+### Solutions Identified
+1. Run code on Google Colab (pre-configured with GPU support)
+2. Build OpenCV locally with GPU support
+
+### Next Steps
+- Implement solution #1 (Colab) for immediate testing
+- Consider solution #2 (local build) for long-term development
