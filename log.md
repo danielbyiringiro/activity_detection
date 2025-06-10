@@ -10,7 +10,7 @@ Report
 [Day 2]
 
 - Found multiple implementations.
-- Started checking (one)['https://github.com/noorkhokhar99/human-activity-recognition/tree/main?tab=readme-ov-file']
+- Started checking [one]('https://github.com/noorkhokhar99/human-activity-recognition/tree/main?tab=readme-ov-file')
 - Was not able to run it.
 - Issue: the opencv I have on my kaggle does not come compiled with GPU support.
 - Solution: 1. Run the code on collab
